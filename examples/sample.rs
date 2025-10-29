@@ -6,6 +6,7 @@
 use std::collections::HashMap;
 use std::fmt::{self, Display};
 use std::error::Error;
+use std::sync::atomic::AtomicUsize;
 
 // Exported constant (purple)
 pub const EXPORTED_CONSTANT: i32 = 42;
@@ -51,8 +52,7 @@ pub enum ExportedEnum {
 pub type Result<T> = std::result::Result<T, Box<dyn Error>>;
 
 // Static variable
-static GLOBAL_COUNTER: std::sync::atomic::AtomicUsize =
-    std::sync::atomic::AtomicUsize::new(0);
+static GLOBAL_COUNTER: AtomicUsize = AtomicUsize::new(0);
 
 // Exported function (yellow)
 pub fn exported_function(param: &str, count: i32) -> Result<String> {

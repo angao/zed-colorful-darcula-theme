@@ -12,6 +12,10 @@ A vibrant dark theme for Zed editor, ported from GoLand/RustRover's Colorful Dar
 - ✅ Fully validated against Zed's official theme schema v0.1.0
 - 🎯 Enhanced tab visibility for multi-tab workflows
 
+## Screenshots
+
+![Screenshot](./images/screenshot.jpeg)
+
 ## Installation
 
 ### From Source
