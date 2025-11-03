@@ -1,0 +1,15 @@
+{
+  "name": "colorful-darcula",
+  "display_name": "Colorful Darcula",
+  "version": "1.0.0",
+  "description": "A vibrant dark theme for Zed, ported from GoLand's Colorful Darcula. Optimized for Go and Rust with enhanced tab visibility and full schema v0.1.0 compliance.",
+  "repository": "",
+  "publisher": "angao<gawaine2111@gmail.com>",
+  "categories": ["Themes"],
+  "license": "MIT",
+  "themes": [
+    {
+      "path": "themes/colorful-darcula.json"
+    }
+  ]
+}
