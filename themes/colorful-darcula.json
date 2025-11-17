@@ -151,7 +151,7 @@
             "color": "#d6c05f"
           },
           "function": {
-            "color": "#50fa7d"
+            "color": "#b4e8f3"
           },
           "function.method": {
             "color": "#61afef"
@@ -164,7 +164,7 @@
             "font_style": "italic"
           },
           "keyword": {
-            "color": "#d689ff"
+            "color": "#9d70ff"
           },
           "label": {
             "color": "#e06c75"
